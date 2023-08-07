@@ -40,3 +40,63 @@
 .read-the-docs {
   color: #888;
 }
+
+body,
+html {
+  overflow-x: hidden;
+  font-family: 'Poppins', serif;
+}
+
+.webgl{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+canvas#myThreeJsCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+nav {
+  color: white;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center; /* Center the links horizontally */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.webgl {
+  position: relative; /* Update the position to relative */
+  z-index: 1;
+}
+
+.title {
+  color: white;
+  z-index: 2;
+  position: absolute;
+  font-size: 3rem;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -75%); /* Update the transform property */
+}
